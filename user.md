@@ -35,7 +35,7 @@
 |userName|string|用户名|是|
 |pwd|string|密码|是|
 |token|string|token|是|
-|level|int|权限值|否|
+|limitLevel|int|权限值|否|
 
 返回数据
 
