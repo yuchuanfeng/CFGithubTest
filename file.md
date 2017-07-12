@@ -109,3 +109,25 @@
     "status": "OK！"
 }
 ```
+
+### 修改文件权限
+|  url | ?module=file&c=File&action=updateLimitLevel | 
+|------|:-----------------------------------------------------:|
+|  数据请求方式 | POST | 
+
+|参数名称|类型|说明|必选|
+|-------|:---:|:--:|:--:|
+|token|string|token|是|
+|fileId|int|文件Id|是|
+|limitRead|int|读取权限|否|
+|limitWrite|int|写权限|否|
+|limitDelete|int|删除权限|否|
+
+返回数据
+
+```json
+{
+    "code": 1,
+    "status": "OK！"
+}
+```
