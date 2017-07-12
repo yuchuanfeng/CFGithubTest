@@ -8,6 +8,9 @@
 |-------|:---:|:--:|:--:|
 |token|string|token|是|
 |file|文件类型|文件|是|
+|limitRead|int|读取权限|否|
+|limitWrite|int|写权限|否|
+|limitDelete|int|删除权限|否|
 
 返回数据
 
