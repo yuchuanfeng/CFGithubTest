@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PodPath=$1
-PROJECT_NAME="${PodPath##*/}"
+PROJECT_NAME="BinaryPods"
 
 echo "PodPath:" $PodPath
 
