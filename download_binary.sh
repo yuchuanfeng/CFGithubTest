@@ -17,12 +17,12 @@ echo 'PROJECT_NAME' ${PROJECT_NAME}
 echo 'UserName: ' $UserName
 echo 'URL: '$URL
 
-cd $PodPath
-ls -l
-# rm -fr lib
-# mkdir binary_sources
-# cd binary_sources
-# git clone $URL -b binary --depth=1
-# cd ../
-# cp -fr binary_sources/$PROJECT_NAME/lib ./
-# rm -fr binary_sources
+# cd $PodPath
+# ls -l
+rm -fr lib
+mkdir binary_sources
+cd binary_sources
+git clone $URL -b binary --depth=1
+cd ../
+cp -fr binary_sources/$PROJECT_NAME/lib ./
+rm -fr binary_sources
