@@ -1,9 +1,6 @@
 #!/bin/bash
 
-PodPath=$1
-PROJECT_NAME="BinaryPods"
-
-echo "PodPath:" $PodPath
+PROJECT_NAME=$1
 
 # if [[ -f $PROJECT_NAME/lib/lib$PROJECT_NAME.a ]]; then
 # 	echo "$PROJECT_NAME/lib/lib$PROJECT_NAME.a Exist"
